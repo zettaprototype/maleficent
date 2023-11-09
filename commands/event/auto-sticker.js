@@ -11,7 +11,7 @@ export let event = {
 			if (checkLimitUser(m.sender) <= 0) {
 				return m.reply(mess.limit);
 			}
-			m.react('🕒', m.chat)
+			m.react('✅', m.chat)
 			let buffer = await quoted.download()
 			conn.sendImageAsSticker(m.chat, buffer, m, {
 				packname: setting.botName,
