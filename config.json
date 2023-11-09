@@ -1,0 +1,25 @@
+{
+    "owner": "6283841155152@s.whatsapp.net",
+    "ownerNumber": [
+        "6283841155152@s.whatsapp.net",
+        "6288975984776@s.whatsapp.net"
+    ],
+    "contact": "6283841155152",
+    "botName": "𝕸𝖆𝖑𝖊𝖋𝖎𝖈𝖊𝖓𝖙 - 𝕸𝕯",
+    "botNumber": "62838411551521@s.whatsapp.net",
+    "ownerName": "Ruly Henderson",
+    "footer": "© by Your Name",
+    "logolimit": "🍌",
+    "sosmed": "http://instagram.com/your url instagram",
+    "thumbnail": "https://files.catbox.moe/l6saac.jpeg",
+    "music": "https://files.catbox.moe/6cao4e.mp3",
+    "ram": 800,
+    "auto_dl": true,
+    "self": false,
+    "qr": false,
+    "pairing": true,
+    "group": {
+        "judul": "Link Group",
+        "link": "https://chat.whatsapp.com/CcKKdTrUXvKBo4yj3t9EDw"
+    }
+}
