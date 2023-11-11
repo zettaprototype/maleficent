@@ -2,7 +2,7 @@ import { ytmp3 } from '../../lib/download.js'
 export let on = {
 	names: ['Downloader'],
 	tags: ['ytmp3'],
-	command: ['ytmp3', 'yta'],
+	command: ['ytmp3', 'yts'],
 	limit: 5,
 	on: async (m, {
 		conn,
