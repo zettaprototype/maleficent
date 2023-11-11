@@ -10,17 +10,15 @@ export let on = {
 	on: async (m, {
 		conn,
 		mess,
+		command,
 		prefix,		
 		mime,
 		quoted,
-		isSticker,
-		command,
 		getRandom,
-		bytesToSize,
-		isQuotedSticker
+		bytesToSize
 	}) => {
 		if (!mime && !quoted) return
-		if (isSticker || isQuotedSticker) {
+		if (/webp/.test(mime) || m.mtype === 'stickerMessage') {
 			let media = await conn.downloadAndSaveMediaMessage(quoted)
 			m.reply(mess.wait);
 			let buffer_up = fs.readFileSync(media);
